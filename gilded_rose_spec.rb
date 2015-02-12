@@ -1,5 +1,5 @@
 describe "#update_quality" do
   it "does something" do
-    1.should == 1
+    expect(1).to eq 1
   end
 end
