@@ -8,7 +8,8 @@ by kbaribeau [here](https://github.com/kbaribeau/gilded_rose_kata).
 
 You can review my testing approach over two commits,
 [here](https://github.com/khundawg/my_gilded_rose_kata/commit/fd9cbcdd4f72c3451db64d6283eee49b45043bae)
-and here.
+and
+[here](https://github.com/khundawg/untested_gilded_rose_solution/commit/25b92fcc49c3e9bf41435deefc12534d14d2e57a).
 
 # Original Description of the Gilded Rose
 
