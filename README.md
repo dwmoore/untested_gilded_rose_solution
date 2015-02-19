@@ -3,31 +3,12 @@
 This is a Ruby version of the Gilded Rose Kata, found
 [here](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/).
 
-This is a refactorying kata, so you will be starting with a legacy code base.
-To work the Kata, clone this git repository. Read the description below for the
-"rules" involving this kata.
+I began with a stripped down version of the repository with no tests in place as provided
+by kbaribeau [here](https://github.com/kbaribeau/gilded_rose_kata).
 
-You can read
-[the original kata article](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/) for more details.
-
-## Installation Hints
-
-The easiest way is to use bundler to install the dependencies. To do so, you need to install the bundler gem if you haven't already done so
-
-    gem install bundler
-
-run bundler
-
-    bundle
-
-and should be ready to go. ## Git Branches
-
-* The 'master' branch contains the starting point for the kata.
-
-* The 'solution1' branch is my first solution for this kata.
-
-Hope you enjoy this.     -- Jim Weirich
-
+You can review my testing approach over two commits,
+[here](https://github.com/khundawg/my_gilded_rose_kata/commit/fd9cbcdd4f72c3451db64d6283eee49b45043bae)
+and here.
 
 # Original Description of the Gilded Rose
 
