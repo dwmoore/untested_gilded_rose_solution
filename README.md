@@ -1,15 +1,48 @@
-# The Gilded Rose Code Kata
+# My Gilded Rose Code Kata
 
-This is a Ruby version of the Gilded Rose Kata, found
-[here](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/).
+I decided to document my process of working through this modified version of
+the Gilded Rose Kata both for my own learning enjoyment as well as hopefully helping
+others who, like me, are trying to see more of the forest and less of the trees.
 
-I began with a stripped down version of the repository with no tests in place as provided
+For this exercise, I began with a stripped down version of the repository with no tests in place as provided
 by kbaribeau [here](https://github.com/kbaribeau/gilded_rose_kata).
+
+**Stage 1 - Testing**
+
+I utilized the client specs provided below along with investigative testing to
+determine the effect that the update_quality method had on each item within the
+sample data array.
+
+After completing the test suite for the kata's current functionality, I decided
+to leave both "normal" items in place for a bit just to confirm my refactorings
+were working as intended.
 
 You can review my testing approach over two commits,
 [here](https://github.com/khundawg/my_gilded_rose_kata/commit/fd9cbcdd4f72c3451db64d6283eee49b45043bae)
 and
 [here](https://github.com/khundawg/untested_gilded_rose_solution/commit/25b92fcc49c3e9bf41435deefc12534d14d2e57a).
+
+**Stage 2 - First Refactoring**
+
+To get the refactoring rolling, I decided to give each of the special cases its
+own method. Rather than pick through the existing conditional reusable code, I
+implemented the easiest solution I could think of to get the tests back to
+green.
+
+Aged Bree was very straight forward and I didn't even break the tests with
+Sulfuras since it doesn't really ever change.
+
+The Backstage Passes were a little more involved. I first continued with the
+string of conditionals but after getting some odd test failures, I opted for a
+case statement just to help my mental processing. I knew I was going to be back
+working on the passes again in a future round of refactoring so the case
+statement would work fine for the time.
+
+It was also on the Backstage Passes that I realized I had some wiggle room in my
+tests that would need addressing, however, I wanted to finish this round of
+refactoring before going off in that direction again.
+
+You can check out my work up to this point here.here
 
 # Original Description of the Gilded Rose
 
